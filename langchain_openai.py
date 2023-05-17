@@ -10,3 +10,4 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 llm = OpenAI(temperature=0.9)
 text = "你是谁？"
 print(llm(text))
+
