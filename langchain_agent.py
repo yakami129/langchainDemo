@@ -21,4 +21,5 @@ tools = load_tools(["serpapi","llm-math"],llm=llm)
 agent = initialize_agent(tools=tools,llm=llm,agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,verbose=True)
 
 ## 执行agent
-agent.run("今天长沙的天气怎么样？它的华氏摄氏度是多少？")
+##agent.run("今天长沙的天气怎么样？它的华氏摄氏度是多少？，用中文回答")
+agent.run("我要开发一个调查问卷系统？，用中文回答")
